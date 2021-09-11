@@ -1,0 +1,238 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .tab1-content {
+        margin-right: 10px;
+    }
+    .tab2-content {
+        margin-right: 10px;
+    }
+    .tab3-content {
+        margin-right: 10px;
+    }
+    .photo-content p {
+        padding-right: 0px;
+    }
+
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .tab1-content {
+        margin-right: 10px;
+    }
+    .tab2-content {
+        margin-right: 10px;
+    }
+    .tab3-content {
+        margin-right: 10px;
+    }
+    ol, ul {
+        padding-left: 0rem !important;
+    }
+    .form {
+        margin: 45px 0px;
+    }
+    .tab ul li {
+        display: inline-block;
+    }
+    .social-icon ul li a i {
+        font-size: 40px;
+ 
+    }
+    .photo-content p {
+        padding-right: 0px;
+    }
+    .photo-content {
+        text-align: center;
+    }
+    
+    .photo-content p {
+        text-align: center;
+        width: 100%;
+    }
+    .b-botom {
+        margin-left: -25px;
+        z-index: -9;
+    }
+    .l-content h1 {
+        font-size: 28px;
+    
+    }
+    .social h5 {
+        text-align: center;
+    }
+    .social p {
+        text-align: center;
+    }
+    .area-content h1 {
+        font-size: 28px;
+    }
+    .p-head h1 {
+        font-size: 28px;
+    }
+    .portfolio-content > h1 {
+        font-size: 28px;
+    }
+    .r-input {
+        margin-left: 0px;
+    }
+    .contact > h1 {
+        font-size: 28px;
+    }
+    .design-content > h1 {
+        font-size: 28px;
+    }
+    .navbar-toggler {
+        font-size: 1rem !important;
+    }
+
+
+
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 120px) and (max-width: 480px) {
+    
+    /* CSS */
+    p{
+        font-size: 14px;
+    }
+    .tab1-content {
+        margin-right: 5px;
+    }
+    .tab2-content {
+        margin-right: 5px;
+    }
+    .tab3-content {
+        margin-right: 5px;
+    }
+    ol, ul {
+        padding-left: 0rem !important;
+    }
+    .form {
+        margin: 45px 0px;
+    }
+    .tab ul li {
+        display: inline-block;
+    }
+    .btn-1 {
+        height: 65px;
+        width: 60px;
+    }
+    .btn-2 {
+        height: 65px;
+        width: 60px;
+    }
+    .btn-3 {
+        height: 65px;
+        width: 60px;
+    }
+    .social-icon ul li a i {
+        font-size: 30px;
+ 
+    }
+    .photo-content p {
+        padding-right: 0px;
+    }
+    .photo-content {
+        text-align: center;
+    }
+    
+    .photo-content p {
+        text-align: center;
+        width: 100%;
+    }
+    .b-botom {
+        margin-left: -25px;
+        z-index: -9;
+    }
+    .l-content h1 {
+        font-size: 24px;
+    
+    }
+    .social h5 {
+        text-align: center;
+    }
+    .social p {
+        text-align: center;
+    }
+    .area-content h1 {
+        font-size: 24px;
+    }
+    .p-head h1 {
+        font-size: 24px;
+    }
+    .portfolio-content > h1 {
+        font-size: 24px;
+    }
+    
+    .r-input {
+        margin-left: 0px;
+    }
+    
+.footer-icon ul li a i {
+    padding: 10px 15px;
+}
+.contact > h1 {
+    font-size: 24px;
+}
+.design-content > h1 {
+    font-size: 24px;
+}
+.navbar-toggler {
+    font-size: 1rem !important;
+}
+    
+    
+  }
